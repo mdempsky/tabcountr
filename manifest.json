@@ -1,0 +1,22 @@
+{
+    "browser_action": {
+        "default_icon": {
+            "16": "thecount-16.png",
+            "24": "thecount-24.png",
+            "32": "thecount-32.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "description": "Count the tabs, a-ha-ha!",
+    "icons": {
+        "16": "thecount-16.png",
+        "48": "thecount-48.png",
+        "128": "thecount-128.png"
+    },
+    "manifest_version": 2,
+    "name": "The Tab Count'r",
+    "permissions": [
+        "tabs"
+    ],
+    "version": "1.0"
+}
